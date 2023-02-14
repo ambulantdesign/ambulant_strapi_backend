@@ -1,4 +1,0 @@
-LOAD DATABASE 
-     FROM mysql://root:16nX28I61jAwpC7v@127.0.0.1/ambulant_datastore
-     INTO postgresql://postgres:7J2F3vYBYD2QjAtpA8BslzbzYzg1JBz4@localhost:5432/ambulant_datastore 
- WITH include drop, create tables, create indexes, reset sequences;
