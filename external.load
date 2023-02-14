@@ -1,0 +1,4 @@
+LOAD DATABASE 
+     FROM mysql://root:16nX28I61jAwpC7v@127.0.0.1/ambulant_datastore
+     INTO postgres://db_dj_events_backend_usr:kKGAX77pJqijziIZJCGRl8h78Fje44sc@dpg-cfl3us5a49903fj1qs9g-a.frankfurt-postgres.render.com/db_dj_events_backend_klxq
+ WITH include drop, create tables, create indexes, reset sequences;
