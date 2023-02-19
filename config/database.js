@@ -10,6 +10,7 @@ module.exports = ({ env }) => ({
   //     ssl: env.bool("DATABASE_SSL", false),
   //     socketPath: "/tmp/mysql.sock",
   //   },
+  // },
   connection: {
     client: "postgres",
     connection: {
@@ -22,8 +23,5 @@ module.exports = ({ env }) => ({
       ssl: env.bool("DATABASE_SSL", false),
     },
     debug: false,
-    options: {
-      autoMigration: false, // this option is required in dbs other than sqlite so that tables can be created autuomatically
-    },
   },
 });
