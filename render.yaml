@@ -8,7 +8,7 @@ services:
     healthCheckPath: /_health
     envVars:
       - key: NODE_VERSION
-        value: 14.21.2
+        value: 16.19.0
       - key: NODE_ENV
         value: production
       - key: CLOUDINARY_NAME
