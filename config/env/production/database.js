@@ -12,7 +12,8 @@ module.exports = ({ env }) => {
         database,
         user,
         password,
-        schema: env("DATABASE_SCHEMA", "ambulant_datastore"),
+        // schema: env("DATABASE_SCHEMA", "ambulant_datastore"),
+        schema: env("DATABASE_SCHEMA", "public"), // Not required
         ssl: {
           rejectUnauthorized: false,
         },
